@@ -4,6 +4,7 @@
 	<% @articles.each do |article| %>
 	<li> <%= link_to article.title, article_path(article), class: 'article_title', id: "article_#{article}" %> </li>
 	<% end %>
+	<%= link_to "All Tags", tags_path%>
 </ul>
 
 <%= link_to "Create New Article", new_article_path(), class: 'new_article' %>
