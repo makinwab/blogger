@@ -26,9 +26,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use paperclip for managing file attachments and uploading
 gem 'paperclip'
+# Use socery for Authentication
+gem 'sorcery'
+# Use bcrypt for auth
+#gem 'bcrypt', '~> 3.1', '>= 3.1.10'
+#gem 'bcrypt-ruby'
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
